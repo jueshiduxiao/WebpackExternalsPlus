@@ -1,8 +1,13 @@
 {
   "name": "webpack-externals-plus-plugin",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The plugin provides a way to automatically exclude dependencies from the output package. ",
   "main": "index.js",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "object-hash": "^1.1.8",
+    "webpack": "^3.8.1"
+  },
   "keywords": [
     "webpack",
     "plugin",
